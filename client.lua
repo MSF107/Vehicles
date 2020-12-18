@@ -4,7 +4,7 @@ RegisterCommand(
         local category = args[1]
         if category == "spawn" then
             local vehicle = args[2]
-            local carPaint = colors.metal["Pure Gold"]
+            local carPaint = colors.metal["Black"]
             local veh = spawnVeh(vehicle, true)
             print(string.format("Spawned in a(n) %s.", GetLabelText(GetDisplayNameFromVehicleModel(vehicle))))
             SetVehicleColours(veh, carPaint, carPaint)
